@@ -26,3 +26,7 @@ func (p *product) deleteProduct(db *sql.DB) error {
 func (p *product) createProduct(db *sql.DB) error {
 	return errors.New("Not implemented")
 }
+
+func getProducts(db *sql.DB, start, count int) ([]product, error) {
+	return nil, errors.New("Not implemented")
+}
